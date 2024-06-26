@@ -1,7 +1,7 @@
 {
   "name": "olx-clone-react",
   "version": "0.1.0",
-  "homepage": "https://haroonb97.github.io/olx-clone",
+  "homepage": "https://haroon97.github.io/olx-clone",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
