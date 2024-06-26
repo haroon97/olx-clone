@@ -13,18 +13,6 @@ const FreshRecom = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-  const getData = () => {
-    setLoading(true);
-    fetch("https://olx-database-3xly.onrender.com/homedata")
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => setError(true))
-      .finally(() => setLoading(false));
-  };
-  useEffect(() => {
-    getData();
-  }, []);
-
   // error ? alert("Something went wrong!");
   // loading ?
 
