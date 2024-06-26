@@ -16,7 +16,7 @@ import AuthContextProvider from "./Context/AuthContext/AuthContextProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider>
-    <HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
         <ParamContextProvider>
           <BooksParamContextProvider>
@@ -32,7 +32,7 @@ root.render(
           </BooksParamContextProvider>
         </ParamContextProvider>
       </Provider>
-    </HashRouter>
+    </BrowserRouter>
   </ChakraProvider>
 );
 
