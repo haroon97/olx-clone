@@ -1,19 +1,13 @@
 import {
   Box,
   HStack,
-  Menu,
-  MenuButton,
-  MenuList,
-  SimpleGrid,
-  Text,
   useMediaQuery,
 } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import { ChevronDownIcon } from "@chakra-ui/icons";
 const links = [
   {
-    path: "e",
+    path: "",
     title: "Ecommerce stores",
   },
   {
