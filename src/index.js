@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./Store/Store";
 import { ParamContextProvider } from "./Context/CarParamContext";
@@ -16,7 +16,7 @@ import AuthContextProvider from "./Context/AuthContext/AuthContextProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider>
-    <BrowserRouter>
+    <HashRouter>
       <Provider store={store}>
         <ParamContextProvider>
           <BooksParamContextProvider>
@@ -32,7 +32,7 @@ root.render(
           </BooksParamContextProvider>
         </ParamContextProvider>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </ChakraProvider>
 );
 
