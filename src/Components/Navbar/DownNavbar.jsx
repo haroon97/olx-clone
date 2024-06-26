@@ -13,35 +13,35 @@ import { Link } from "react-router-dom";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 const links = [
   {
-    path: "/e-commerce",
+    path: "e",
     title: "Ecommerce stores",
   },
   {
-    path: "#",
+    path: "",
     title: "Physical businesses",
   },
   {
-    path: "/mobile",
+    path: "",
     title: "Amazon FBA stores",
   },
   {
-    path: "#",
+    path: "",
     title: "Youtube channels",
   },
   {
-    path: "#",
+    path: "",
     title: "SaaS businesses",
   },
   {
-    path: "#",
+    path: "",
     title: "Blogs",
   },
   {
-    path: "#",
+    path: "",
     title: "Apps",
   },
   {
-    path: "#",
+    path: "",
     title: "Social Media accounts",
   },
 ];
