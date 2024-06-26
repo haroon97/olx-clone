@@ -7,7 +7,7 @@ const Footer1 = () => {
   return (
     <div>
       <Box mt="2rem" bg="#f7f8f9">
-        <SimpleGrid columns={[1, 2, 3]} spacing="30px">
+        {/* <SimpleGrid columns={[1, 2, 3]} spacing="30px">
           <Box>
             <img src={phone} alt="phone" />
           </Box>
@@ -37,7 +37,7 @@ const Footer1 = () => {
               </Flex>
             </Box>
           </Box>
-        </SimpleGrid>
+        </SimpleGrid> */}
       </Box>
     </div>
   );

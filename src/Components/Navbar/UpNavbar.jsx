@@ -73,22 +73,7 @@ const UpNavbar = () => {
       >
         <HStack p="2" bg="#eff1f3" spacing="18px">
           <Box>
-            <Link to="/" cursor="pointer">
-              <svg
-                width="48px"
-                height="48px"
-                viewBox="0 0 1024 1024"
-                data-aut-id="icon"
-                class=""
-                fill-rule="evenodd"
-                color="#002f34"
-              >
-                <path
-                  class="rui-4K4Y7"
-                  d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"
-                ></path>
-              </svg>
-            </Link>
+            <Text as='b' fontSize='25px'>We Flip It</Text>
           </Box>
           <Box>
             <InputGroup border="1px solid #002f34" borderRadius="4px">
@@ -113,7 +98,7 @@ const UpNavbar = () => {
               width="100%"
             >
               <Input
-                placeholder="Find Cars, Mobile Phones and more..."
+                placeholder="Find Businesses..."
                 borderRadius="none"
                 bg="white"
                 focusBorderColor="#23e5db"
@@ -154,7 +139,7 @@ const UpNavbar = () => {
                     <CheckIcon />
                   </span>
                 </MenuItem>
-                <MenuItem>हिंदी</MenuItem>
+                <MenuItem>Urdu</MenuItem>
               </MenuList>
             </Menu>
           </Box>
@@ -278,11 +263,11 @@ const UpNavbar = () => {
             <Box pb={4} display={{ md: "none" }}>
               <Flex alignItems="center">
                 <Box width="96px" height="96px" borderRadius="50%" mt="15px">
-                  {" "}
+                  {/* {" "}
                   <Image
                     src=" https://statics.olx.in/external/base/img/avatar_empty_state.png"
                     alt="Profile pic"
-                  />
+                  /> */}
                 </Box>
 
                 <Box mx="1rem">
@@ -292,7 +277,7 @@ const UpNavbar = () => {
                       size="md"
                       font-family="Roboto,Arial,Helvetica,sans-serif"
                     >
-                      Welcome to OLX!
+                      Welcome to We Flip It!
                     </Heading>
                   </Box>
 
@@ -317,7 +302,7 @@ const UpNavbar = () => {
                       color="#002f34"
                       font-family="Roboto,Arial,Helvetica,sans-serif"
                     >
-                      Start selling
+                      Start selling your business
                     </Text>
                   </Box>
                 </Flex>

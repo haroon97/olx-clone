@@ -23,13 +23,7 @@ function LoginEmail() {
              <Link to="/">
             <AiOutlineArrowLeft/>
             </Link>
-            <Image  boxSize='200px'
-                    height="60px"
-                    width="80px"
-                src='https://www.logosvgpng.com/wp-content/uploads/2020/10/olx-logo-vector.png'
-                alt='olx-logo'
-                marginLeft='37%'
-            />
+         
             <Text fontSize='1xl' as='b'>Enter Your Email To Login</Text><br /><br />
             <Box>
 

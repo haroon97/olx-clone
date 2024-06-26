@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Carousel from "react-elastic-carousel";
+import { featuredProducts } from "../../Data/featuredProducts";
 
 function MobileCarousal() {
   const [appliances, setappliances] = useState([]);
@@ -26,18 +27,18 @@ function MobileCarousal() {
     { width: 800, itemsToShow: 4, itemsToScroll: 4 },
     { width: 1200, itemsToShow: 4, itemsToScroll: 4 },
   ];
-  const getMobile = () => {
-    setLoading(true);
-    fetch("https://olx-database-3xly.onrender.com/homedata")
-      .then((res) => res.json())
-      .then((res) => setappliances(res))
-      .catch((err) => setError(true))
-      .finally(() => setLoading(false));
-  };
-  useEffect(() => {
-    getMobile();
-  }, []);
-  console.log(appliances, "dd");
+  // const getMobile = () => {
+  //   setLoading(true);
+  //   fetch("https://olx-database-3xly.onrender.com/homedata")
+  //     .then((res) => res.json())
+  //     .then((res) => setappliances(res))
+  //     .catch((err) => setError(true))
+  //     .finally(() => setLoading(false));
+  // };
+  // useEffect(() => {
+  //   getMobile();
+  // }, []);
+
   if (loading) {
     return (
       <>
@@ -81,7 +82,7 @@ function MobileCarousal() {
             Based on your last search
           </Heading>
           <Carousel breakPoints={breakPoints}>
-            {appliances.map((elem) => (
+            {featuredProducts.map((elem) => (
               <Box
                 key={elem.id}
                 width="95%"
@@ -169,7 +170,7 @@ function MobileCarousal() {
                     fontWeight="700"
                     lineHeight="23pxpx"
                   >
-                    ₹ {new Intl.NumberFormat("en-IN").format(elem.price)}
+                    PKR {new Intl.NumberFormat("en-IN").format(elem.price)}
                   </Box>
 
                   <Box

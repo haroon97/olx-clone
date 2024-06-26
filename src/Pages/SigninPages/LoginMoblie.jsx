@@ -85,24 +85,13 @@ const LoginMobile = () => {
       <Link to="/">
         <AiOutlineArrowLeft />
       </Link>
-      <Box>
-        <Image
-          boxSize="200px"
-          height="60px"
-          width="80px"
-          // objectFit='cover'
-          src="https://www.logosvgpng.com/wp-content/uploads/2020/10/olx-logo-vector.png"
-          alt="Dan Abramov"
-          // alignContent="center"
-          marginLeft="35%"
-        />
-      </Box>
+     
       <Box>
         <Text as="b">Enter Your Phone Number</Text>
       </Box>
       <br />
       <InputGroup>
-        <InputLeftAddon children="+91" />
+        <InputLeftAddon children="+92" />
         <Input
           type="tel"
           value={MobileNum}

@@ -3,6 +3,7 @@ import { Box, Heading, Image, SimpleGrid, Flex, Badge } from "@chakra-ui/react";
 import React, { useState } from "react";
 
 import { useEffect } from "react";
+import { freshRecommendations } from "../../Data/freshRecommendations";
 // import { useDispatch, useSelector } from "react-redux";
 
 // import { fetchData } from "../../data_redux/action";
@@ -35,7 +36,7 @@ const FreshRecom = () => {
             Fresh recommendations
           </Heading>
           <SimpleGrid columns={[1, 2, 3, 4]} spacing="20px">
-            {data.map((elem) => {
+            {freshRecommendations.map((elem) => {
               return (
                 <Box
                   key={elem.id}
@@ -81,7 +82,7 @@ const FreshRecom = () => {
                       fontWeight="700"
                       lineHeight="23pxpx"
                     >
-                      ₹ {new Intl.NumberFormat("en-IN").format(elem.price)}
+                      PKR {new Intl.NumberFormat("en-IN").format(elem.price)}
                     </Box>
 
                     <Box

@@ -17,16 +17,16 @@ const Footer2 = () => {
               <Text as="b">POPULAR LOCATIONS</Text>
             </Box>
             <Box>
-              <Link to="#">Kolkata</Link>
+              <Link to="#">Lahore</Link>
             </Box>
             <Box>
-              <Link to="#">Mumbai</Link>
+              <Link to="#">Islamabad</Link>
             </Box>
             <Box>
-              <Link to="#">Chennai</Link>
+              <Link to="#">Karachi</Link>
             </Box>
             <Box>
-              <Link to="#">Pune</Link>
+              <Link to="#">Faisalabad</Link>
             </Box>
           </Box>
           <Box>
@@ -34,24 +34,22 @@ const Footer2 = () => {
               <Text as="b">TRENDING LOCATIONS</Text>
             </Box>
             <Box>
-              <Link to="#">Bhubaneshwar</Link>
+              <Link to="#">Islamabad</Link>
             </Box>
             <Box>
-              <Link to="#">Hyderabad</Link>
+              <Link to="#">Lahore</Link>
             </Box>
             <Box>
-              <Link to="#">Chandigarh</Link>
+              <Link to="#">Karachi</Link>
             </Box>
-            <Box>
-              <Link to="#">Nashik</Link>
-            </Box>
+         
           </Box>
           <Box>
             <Box>
               <Text as="b">ABOUT US</Text>
             </Box>
             <Box>
-              <Link to="#">About OLX Group</Link>
+              <Link to="#">About We Flip It</Link>
             </Box>
             <Box>
               <Link to="#">Careers</Link>
@@ -59,16 +57,11 @@ const Footer2 = () => {
             <Box>
               <Link to="#">Contact Us</Link>
             </Box>
-            <Box>
-              <Link to="#">OLXPeople</Link>
-            </Box>
-            <Box>
-              <Link to="#">Waah Jobs</Link>
-            </Box>
+          
           </Box>
           <Box>
             <Box>
-              <Text as="b">OLX</Text>
+              <Text as="b">We Flip It</Text>
             </Box>
             <Box>
               <Link to="#">Help</Link>
@@ -90,27 +83,27 @@ const Footer2 = () => {
               <Text as="b">FOLLOW US</Text>
               <Box mt="3px" mb="55px">
                 <Flex gap="2">
-                  <Link to="https://www.facebook.com/olxindia/">
+                  <Link>
                     <TiSocialFacebookCircular size="20px" color="#557477" />
                   </Link>
-                  <Link to="https://www.instagram.com/olx_india/">
+                  <Link>
                     <RiInstagramLine size="20px" color="#557477" />
                   </Link>
-                  <Link to="https://twitter.com/OLX_India">
+                  <Link >
                     <TiSocialTwitterCircular size="20px" color="#557477" />
                   </Link>
-                  <Link to="https://www.youtube.com/user/OLXInTv">
+                  <Link>
                     <MdOutlinePlayCircle size="20px" color="#557477" />
                   </Link>
                 </Flex>
               </Box>
               <Box>
                 <Flex>
-                  <Link to="https://play.google.com/store/apps/details?id=com.olx.southasia">
+                  <Link>
                     <Image width="130px" src={playstore} alt="phone" />
                   </Link>
 
-                  <Link to="https://itunes.apple.com/in/app/olx-buy-sell-near-you/id913492792?mt=8">
+                  <Link>
                     <Image
                       height="35px"
                       px="5px"
@@ -132,10 +125,10 @@ const Footer2 = () => {
         {" "}
         <Box mx="2rem" display="flex" pt="1rem" pb="1rem">
           <Text color="white">
-            Other Countries Pakistan - South Africa - Indonesia
+             Developed by Umair Shahzad
           </Text>
           <Spacer />
-          <Text color="white">All rights reserved © 2006-2022 OLX</Text>
+          <Text color="white">All rights reserved © 2024 WE FLIP IT</Text>
         </Box>
       </Box>
     </div>

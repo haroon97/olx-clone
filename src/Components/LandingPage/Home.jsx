@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 import React from "react";
 import DownNavbar from "../Navbar/DownNavbar";
 import UpNavbar from "../Navbar/UpNavbar";
@@ -6,6 +6,7 @@ import Footer1 from "./Footer1";
 import Footer2 from "./Footer2";
 import FreshRecom from "./FreshRecom";
 import poster from "./Images/land.png";
+import gif from "./Images/footer.gif";
 import MobileCarousal from "./MobileCarousal";
 import SellButton from "./SellButton";
 import ScrollToTop from "react-scroll-to-top";
@@ -47,7 +48,9 @@ const Home = () => {
       <img src={poster} alt="poster" />
       <MobileCarousal />
       <FreshRecom />
-      <Footer1 />
+      <Box mt={10}>
+        <img src={gif} alt="gif" />
+      </Box>
       <Footer2 />
     </div>
   );

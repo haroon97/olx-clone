@@ -10,17 +10,17 @@ const SellButton = () => {
 
   if (isLargerThan780) {
     return (
-      <Box position="sticky" top="1.5%" ml="85%" mt={-8} zIndex="1000">
+      <Box position="sticky" top="0.8%" ml="87%" mt={-8} zIndex="1000">
         <Link to="/post">
           <Button
             bg="white"
             _hover="none"
             borderRadius="30px"
             p="17px"
-            borderTop="5px solid #23e5db"
-            borderLeft="5px solid #ffce32"
-            borderRight="5px solid #3a77ff"
-            borderBottom="5px solid #ffce32"
+            borderTop="5px solid #05101E"
+            borderLeft="5px solid #05101E"
+            borderRight="5px solid #05101E"
+            borderBottom="5px solid #05101E"
             className="sellBtn"
           >
             <AddIcon mr="5px" />
@@ -38,10 +38,10 @@ const SellButton = () => {
             _hover="none"
             borderRadius="30px"
             p="17px"
-            borderTop="5px solid #23e5db"
-            borderLeft="5px solid #ffce32"
-            borderRight="5px solid #3a77ff"
-            borderBottom="5px solid #ffce32"
+            borderTop="5px solid #05101E"
+            borderLeft="5px solid #05101E"
+            borderRight="5px solid #05101E"
+            borderBottom="5px solid #05101E"
             className="sellBtn"
           >
             <AddIcon mr="5px" />
