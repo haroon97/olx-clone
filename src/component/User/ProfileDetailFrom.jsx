@@ -195,9 +195,8 @@ function ProfileDetailForm(props) {
               </Text>
             </HStack>
             <Text px="10px" py="5px" color="#5c7a7d" fontSize="xs">
-              OLX is built on trust. Help other people get to know you. Tell
-              them about the things you like. Share your favorite brands, books,
-              movies, shows, music, food. And you will see the results…
+              We Flip It is built on trust. Help other people get to know you. Tell
+              them about the things you like.
             </Text>
           </Box>
         </Flex>

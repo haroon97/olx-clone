@@ -98,7 +98,7 @@ const DummyLogin = () => {
                 <Text fontSize='xs'>If you continue, you are accepting { }
 
                     <Link color='blue.500' href='https://help.olx.in/hc/en-us'>
-                        OLX Terms and Conditions and Privacy Policy
+                        We Flip It Terms and Conditions and Privacy Policy
                     </Link>
                 </Text>
 
